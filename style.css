@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --background: #191724;
+
+  --accent: #FF70E4;
+  --primary: #77E98C;
+  --secondary: #26233A;
+  --text: #E0DEF4;
+}
+
+body {
+  overflow: hidden;
+
+  background-color: var(--background);
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+
+  padding: 6px 12px;
+
+  transition: 0.2s;
+  transform: translate(-50%, -50%);
+
+  color: var(--text);
+  border: solid 3px var(--accent);
+  border-radius: 12px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  color: var(--background);
+  background-color: var(--accent);
+}
+
+button:active {
+  transform: translate(-50%, calc(-50% + 8px));
+
+  color: var(--text);
+  background-color: var(--secondary);
+}
