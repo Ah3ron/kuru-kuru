@@ -17,7 +17,7 @@ function addHerta() {
 
 function createHerta() {
   const herta = document.createElement("img");
-  herta.src = "/assets/herta.webp";
+  herta.src = "assets/herta.webp";
   herta.style.width = `7%`;
   return herta;
 }
@@ -31,7 +31,7 @@ function setRandomPos(element) {
 }
 
 function playAudio() {
-  const audio = new Audio("/assets/kuru_kuru.mp3");
+  const audio = new Audio("assets/kuru_kuru.mp3");
   audio.volume = AUDIO_VOLUME;
   audio.loop = true;
   audio.play();
