@@ -1,5 +1,5 @@
-const imgContainer = document.getElementById("imgContainer");
 const button = document.querySelector("button");
+const body = document.body;
 
 const AUDIO_VOLUME = 0.25;
 
@@ -10,9 +10,9 @@ button.addEventListener("click", () => {
 function addHerta() {
   const herta = createHerta();
   setRandomPos(herta);
-  imgContainer.append(herta);
-  playAudio();
+  body.append(herta);
   animate(herta);
+  playAudio();
 }
 
 function createHerta() {
@@ -25,7 +25,7 @@ function createHerta() {
 function setRandomPos(element) {
   const topPosition = rand(-50, window.screen.availHeight - 50);
   const leftPosition = rand(-50, window.screen.availWidth - 50);
-  
+
   element.style.position = "absolute";
   element.style.top = `${topPosition}px`;
   element.style.left = `${leftPosition}px`;
@@ -40,7 +40,7 @@ function playAudio() {
 
 function animate(element) {
   setTimeout(() => {
-    setRandomPos(element);
+    setRandomPos(element)
   }, 100);
   setTimeout(() => {
     animate(element);
