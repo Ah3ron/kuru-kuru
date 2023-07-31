@@ -18,7 +18,7 @@ function addHerta() {
 function createHerta() {
   const herta = document.createElement("img");
   herta.src = "assets/herta.webp";
-  herta.style.width = `7%`;
+  herta.style.width = `100px`;
   return herta;
 }
 
