@@ -46,3 +46,7 @@ button:active {
   color: var(--text);
   background-color: var(--secondary);
 }
+
+img {
+  transition: 8s;
+}
