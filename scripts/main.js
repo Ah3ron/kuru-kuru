@@ -23,8 +23,9 @@ function createHerta() {
 }
 
 function setRandomPos(element) {
-  const topPosition = rand(0, window.screen.height - 150);
-  const leftPosition = rand(0, window.screen.width - 100);
+  const topPosition = rand(-50, window.screen.availHeight - 50);
+  const leftPosition = rand(-50, window.screen.availWidth - 50);
+  
   element.style.position = "absolute";
   element.style.top = `${topPosition}px`;
   element.style.left = `${leftPosition}px`;
