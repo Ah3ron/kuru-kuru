@@ -34,13 +34,6 @@ pnpm dev
 
 4. Open http://localhost:5173 and see the magic ✨
 
-## 🎮 Development
-
-```bash
-# Start development server
-pnpm dev
-```
-
 ## 🌈 Deployment
 
 This project uses `@sveltejs/adapter-static` for static site generation. The build output will be in the `build` directory.
