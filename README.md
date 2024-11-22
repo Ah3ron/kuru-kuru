@@ -19,7 +19,7 @@ A cute and modern SvelteKit project built with TailwindCSS ✨
 
 1. Clone this kuru kuru repository
 ```bash
-git clone https://github.com/yourusername/kuru-kuru.git
+git clone https://github.com/Ah3ron/kuru-kuru.git
 ```
 
 2. Install dependencies with your favorite package manager
