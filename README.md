@@ -53,4 +53,3 @@ Made with love 💕
 <div align="center">
   <i>Kuru kuru~ Kuru kuru~</i>
 </div>
-```
