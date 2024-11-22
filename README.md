@@ -1,5 +1,3 @@
-
-```markdown
 # 🌟 Kuru-Kuru~! 
 
 <div align="center">
