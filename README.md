@@ -1,38 +1,58 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+```markdown
+# 🌟 Kuru-Kuru~! 
 
-## Creating a project
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Ah3ron/kuru-kuru/refs/heads/main/src/lib/assets/herta.gif" alt="Kuru Kuru~!" width="200"/>
+</div>
 
-If you're seeing this, you've probably already done this step. Congrats!
+A cute and modern SvelteKit project built with TailwindCSS ✨
 
+## 🎀 Features
+
+- 💫 Built with SvelteKit 5.0
+- 🎨 Styled with TailwindCSS
+- 🚀 Static site adapter
+- ✨ Modern development experience
+- 🌈 Dark mode support
+- 💝 Prettier + ESLint configured
+
+## 🌸 Getting Started
+
+1. Clone this kuru kuru repository
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/yourusername/kuru-kuru.git
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+2. Install dependencies with your favorite package manager
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
 ```
 
-## Building
-
-To create a production version of your app:
-
+3. Start the development server
 ```bash
-npm run build
+pnpm dev
 ```
 
-You can preview the production build with `npm run preview`.
+4. Open http://localhost:5173 and see the magic ✨
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🎮 Development
+
+```bash
+# Start development server
+pnpm dev
+```
+
+## 🌈 Deployment
+
+This project uses `@sveltejs/adapter-static` for static site generation. The build output will be in the `build` directory.
+
+## 💝 License
+
+Made with love 💕
+
+---
+<div align="center">
+  <i>Kuru kuru~ Kuru kuru~</i>
+</div>
+```
